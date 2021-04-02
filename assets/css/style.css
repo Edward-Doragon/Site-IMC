@@ -1,0 +1,207 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F8F8F8;
+    height: auto;
+}
+
+.header{
+    background-color: #333333;
+    color: #fff;
+
+    width: 100%;
+    height: 60px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 50px;
+    
+}
+
+.titulo{
+    margin-left: 35px;
+}
+
+.conteudo{
+    margin-bottom: 40px;
+    
+}
+
+.conteudo-texto{
+    margin-left: 35px;
+    margin-bottom: 40px;
+    width: 60%;
+    
+}
+
+.subtitulo{
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.calc-tabela{
+    width: 100%; 
+    
+    margin-bottom: 20px;
+}
+
+.titulo-div{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.calculadora-de-imc{  
+    width: 60%;
+    height: 350px;
+
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    
+    margin-left: 35px;
+    
+    display: inline-block;
+}
+
+.campos{
+    margin-left:20px ;
+    align-items: center;
+    
+}
+
+.campo-input{
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    margin-bottom: 30px;
+    outline:none;
+}
+
+.campo-input:focus{
+    border-color: rgb(85, 85, 85);
+    
+}
+
+.botao-calc{
+    color: #fff;
+    background: #2B7BC5;
+    border: none;
+    border-radius: 20px;
+
+    width: 120px;
+    height: 35px;
+    font-weight: bold;
+    margin-left: 40px;
+    outline:none;
+    
+}
+.botao-calc:hover {
+    cursor: pointer;
+    background-color: #105291; ;
+}
+
+.tabela-de-imc{
+    width: 30%;
+    height: 350px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+    margin-left: 35px;
+
+    display: inline-block;
+    vertical-align: top;
+
+    
+    
+}
+.titulo-div{
+    
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tabela{
+    text-align: left;
+    
+    margin-left: 20px;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+td, th {
+	padding: .3em;
+	text-align: left;
+    
+}
+
+
+
+.faixaPeso{
+    background: yellowgreen;
+}
+
+thead{
+    background: #c4c4c4;
+}
+
+
+.footer{
+    background-color: #333333;
+    color: #fff;
+    
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    bottom: 0;
+    position: fixed;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .tabela-de-imc{
+        display: block;
+        height: 420px;
+        width: 80%;
+
+    }
+
+    .calculadora-de-imc{
+        display: block;
+
+        height: 420px;
+        width: 80%;
+    }
+    
+    .titulo-div{
+        padding: 30px;
+    }
+
+    .botao-calc{
+        display: block;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .tabela{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .bold{
+        display: block;
+        margin-bottom: 10px;
+    }
+  }

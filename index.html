@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site IMC</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="assets/imagens/favicon.png" type="image/x-icon">
+    <script data-ad-client="ca-pub-9864263589753712" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="titulo">Site do IMC</h1>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <div class="conteudo-texto">
+            <h2 class="subtitulo">O que é IMC:</h2>
+            <p>IMC, (Índice de massa corporal)é um cálculo universal adotado pela OMS (Organização Mundial da Saúde) para classificar padrões de saúde relacionados ao peso, como desnutrição e obesidade.</p>
+        </div>
+
+        <div class="calc-tabela">
+
+            <section class="calculadora-de-imc">
+                <h2 class="titulo-div">Calculadora de IMC</h2>
+
+                <div class="campos">
+                    <label for="peso" class="bold">Peso:</label>
+                    <input type="text" id="peso" placeholder="75.5" class="campo-input">
+
+                    <label for="altura" class="bold">Altura:</label>
+                    <input type="text" id="altura" placeholder="1.75" class="campo-input">
+
+                    <button class="botao-calc" onclick="CalculaIMC()">Calcular</button>
+
+                    <p class="bold" id="IMC">Seu IMC:</p>
+                </div>
+                
+            </section>
+
+            <section class="tabela-de-imc">
+                <h2 class="titulo-div">Tabela de IMC</h2>
+
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th>IMC</th>
+                            <th>Classificação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="abaixo18">
+                            <td>Abaixo de 18,5</td>
+                            <td>Abaixo do Peso</td>
+                        </tr>
+                        <tr id="abaixo24">
+                            <td>Entre 18,6 e 24,9</td>
+                            <td>Peso ideal</td>
+                        </tr>
+                        <tr id="abaixo29">
+                            <td>Entre 25 e 29,9</td>
+                            <td>Acima do Peso</td>
+                        </tr>
+                        <tr id="abaixo34">
+                            <td>Entre 30 e 34,9</td>
+                            <td>Obesidade Grau I</td>
+                        </tr>
+                        <tr id="abaixo39">
+                            <td>Entre 35 e 39,9</td>
+                            <td>Obesidade Grau II</td>
+                        </tr>
+                        <tr id="acima40">
+                            <td>Acima de 40</td>
+                            <td>Obesidade Mórbida</td>
+                        </tr>
+                    </tbody>
+                    
+
+                </table>
+            </section>
+        </div>
+
+        
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>Copyright &copy; Carlos Eduardo - 2021</p>
+        </div>
+    </footer>
+
+    <script src="assets/javascript/IMC.js"></script>
+</body>
+</html>
