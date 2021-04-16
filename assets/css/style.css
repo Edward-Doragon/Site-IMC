@@ -205,3 +205,12 @@ thead{
         margin-bottom: 10px;
     }
   }
+
+@media only screen and (max-width: 1400) {
+    .calculadora-de-imc {
+    	width: 40%;
+	}
+     .tabela-de-imc {
+    	width: 15%;
+	}
+}
